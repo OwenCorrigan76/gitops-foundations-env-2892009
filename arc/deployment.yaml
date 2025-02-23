@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: gitops-foundations
-        image: owenerz/gitops-foundations:1.0
+        image: owenerz/kafka-audio-producer
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8080
